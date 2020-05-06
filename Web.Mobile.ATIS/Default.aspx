@@ -15,11 +15,6 @@
                 <asp:Button ID="Button2" runat="server" Text="دانلود" Font-Names="B Homa" Font-Size="Small" />
             </p>
         </div>
-        <div class="col-md-4">
-            <h2>ATIS Web</h2>
-            <p>
-            </p>
-        </div>
     </div>
 
 </asp:Content>

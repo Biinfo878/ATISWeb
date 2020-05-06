@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id ="Container">
+        <div id="header">
+  <h1 class ="Title">Site Title</h1>
+  <span class ="TagLine">Tag Line</span>
+<ul class ="Menu">
+<li><a href ="Default.aspx">Home</a></li>
+<li><a href ="Movies.aspx">Movies</a></li>
+<li><a href ="ThemeManager.aspx">Settings</a></li>
+<li><a href ="Feedback.aspx">Feedback</a></li>
+<li><a href ="#">AboutUs</a></li>
+<li><a href ="#">ContactUs</a></li>
+</ul>
+  </div>
+
+        <div id="SideBar">
+<ul>
+<li><a href ="#">Home</a></li>
+<li><a href ="#">AboutUs</a></li>
+<li><a href ="#">ContactUs</a></li>
+<li><a href ="#">Articles</a></li>
+<li><a href ="#">Discussions</a></li>
+<li><a href ="#">Navigation</a></li>
+</ul>
+</div>
+        <div id="Content">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+
+        <div id="Footer">
+
+</div>
+        </div>
+    </form>
+</body>
+</html>

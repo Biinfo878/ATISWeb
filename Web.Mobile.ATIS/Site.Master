@@ -40,16 +40,18 @@
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
-                <div class="navbar-header">
+                <div class="navbar-header"  align="center ">
+                    <asp:Label ID="Label2" runat="server" Font-Names="S_HANI" Font-Size="XX-Large" ForeColor="Yellow" Text="ATIS   SYSTEM"></asp:Label>
                 </div>
             </div>
         </div>
         <div class="container body-content" >
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
             <footer >
-                <p>Based On R2PrimarySystem </p>
+                <p> 
+                    <asp:Label ID="Label1" runat="server" Font-Names="Mistral" Font-Size="Medium" ForeColor="Red" Text="Based On R2PrimarySystem"></asp:Label>
+                </p>
             </footer>
         </div>
 
